@@ -1,16 +1,164 @@
-## Hi there 👋
+# `CRASH@NSD:~$ whoami`
 
-<!--
-**Crash-sh/Crash-sh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```text
+[    0.000000 ] NSD BLACKSITE SYSTEMS
+[    0.013053 ] loading personnel record...
+[    0.053689 ] identity confirmed: CRASH
+[    0.1368953] clearance: questionable
+[    0.689000 ] warranty: void
+```
 
-Here are some ideas to get you started:
+```sh
+$ id
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+uid=0(crash) gid=13(nsd) groups=53(hardware),689(architecture)
+
+$ cat /etc/motd
+
+        ███╗   ██╗███████╗██████╗
+        ████╗  ██║██╔════╝██╔══██╗
+        ██╔██╗ ██║███████╗██║  ██║
+        ██║╚██╗██║╚════██║██║  ██║
+        ██║ ╚████║███████║██████╔╝
+        ╚═╝  ╚═══╝╚══════╝╚═════╝
+
+        NEURO SOFTWARE DISTRIBUTION
+        HARDWARE & ARCHITECTURE DIVISION
+
+        SOFTWARE ENDS SOMEWHERE.
+        I WORK THERE.
+```
+
+---
+
+```text
+┌─[ PERSONNEL RECORD ]────────────────────────────────────────────┐
+│                                                                │
+│  CALLSIGN      : CRASH                                         │
+│  HANDLE        : Crash-sh                                      │
+│  ORGANIZATION  : Neuro Software Distribution                   │
+│  DIVISION      : Hardware / Architecture / Special Projects    │
+│  STATUS        : ACTIVE                                        │
+│  CLEARANCE     : [REDACTED]                                    │
+│                                                                │
+└────────────────────────────────────────────────────────────────┘
+```
+
+### `crash@nsd:~$ cat specialization.txt`
+
+```text
+[assembly]        learning what the compiler was hiding
+[architecture]    registers, ABIs, ISAs, memory and other bad ideas
+[embedded]        making silicon obey
+[bare-metal]      operating systems are optional
+[hardware]        datasheets are just very long threat letters
+[reverse-eng]     "what the fuck does this actually do?"
+```
+
+### `crash@nsd:~$ ls ~/interests`
+
+```text
+asm/
+bare-metal/
+bootloaders/
+embedded/
+hardware/
+microcontrollers/
+reverse-engineering/
+computer-architecture/
+things-that-probably-needed-an-os/
+```
+
+### `crash@nsd:~$ cat doctrine`
+
+```c
+/*
+ * Neuro uses the abstraction.
+ *
+ * I want to know what's underneath it.
+ */
+```
+
+```text
+NEURO:
+    "Can I build this?"
+
+CRASH:
+    "How far down does this go?"
+```
+
+### `crash@nsd:~$ cat CURRENT_TASK`
+
+```text
+> learn assembly
+> interrogate hardware
+> read datasheets until the words stop looking real
+> remove abstractions one layer at a time
+> eventually make the machine regret exposing registers
+```
+
+### `crash@nsd:~$ systemctl status crash.service`
+
+```text
+● crash.service - NSD Special Projects Operative
+     Loaded: loaded (/etc/nsd/crash.service; enabled)
+     Active: active (running)
+      Tasks: too many
+     Memory: unspecified
+        CPU: yes
+
+Oct 02 19:53 nsd kernel: Crash entered hardware division
+Oct 02 19:53 nsd kernel: assembly support pending
+Oct 02 19:53 nsd kernel: warning: user has discovered datasheets
+Oct 02 19:53 nsd kernel: warranty bit permanently cleared
+```
+
+### `crash@nsd:~$ uname -a`
+
+```text
+Crash NSD 13.53.689-blacksite x86_64 GNU/Linux
+```
+
+### `crash@nsd:~$ cat /proc/philosophy`
+
+```text
+if it has a datasheet,
+it can be questioned.
+
+if it has registers,
+it can be poked.
+
+if it boots,
+we can probably make it boot somewhere it wasn't supposed to.
+```
+
+### `crash@nsd:~$ find / -name "social_life" 2>/dev/null`
+
+```text
+```
+
+### `crash@nsd:~$ cat contact`
+
+```text
+organization : NSD
+division     : Hardware & Architecture
+operator     : Crash
+status       : probably compiling
+```
+
+---
+
+```text
+[NSD INTERNAL NOTICE]
+
+Crash is not authorized to speak on behalf of Neuro Software Distribution.
+
+Crash has root access anyway.
+
+Legal has been informed.
+Legal has stopped responding.
+```
+
+```sh
+crash@nsd:~$ _
+```
