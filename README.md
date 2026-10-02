@@ -59,33 +59,22 @@ $ cat /etc/motd
 
 ```text
 asm/
-bare-metal/
 bootloaders/
 embedded/
 hardware/
 microcontrollers/
 reverse-engineering/
 computer-architecture/
-things-that-probably-needed-an-os/
 ```
 
 ### `crash@nsd:~$ cat doctrine`
 
 ```c
 /*
- * Neuro uses the abstraction.
- *
- * I want to know what's underneath it.
+* Force silicon into obedience till it fucking cooperates
  */
 ```
 
-```text
-NEURO:
-    "Can I build this?"
-
-CRASH:
-    "How far down does this go?"
-```
 
 ### `crash@nsd:~$ cat CURRENT_TASK`
 
@@ -103,7 +92,7 @@ CRASH:
 ● crash.service - NSD Special Projects Operative
      Loaded: loaded (/etc/nsd/crash.service; enabled)
      Active: active (running)
-      Tasks: too many
+      Tasks: fucks tone
      Memory: unspecified
         CPU: yes
 
@@ -126,7 +115,7 @@ if it has a datasheet,
 it can be questioned.
 
 if it has registers,
-it can be poked.
+it can be fucked with.
 
 if it boots,
 we can probably make it boot somewhere it wasn't supposed to.
@@ -143,7 +132,7 @@ we can probably make it boot somewhere it wasn't supposed to.
 organization : NSD
 division     : Hardware & Architecture
 operator     : Crash
-status       : probably compiling
+status       : probably smoking
 ```
 
 ---
