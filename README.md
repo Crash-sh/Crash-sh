@@ -12,9 +12,11 @@
 $ id
 
 uid=0(crash) gid=13(nsd) groups=53(hardware),689(architecture)
+```
 
-$ cat /etc/motd
+### `crash@nsd:~$ cat /etc/motd`
 
+```text
         ███╗   ██╗███████╗██████╗
         ████╗  ██║██╔════╝██╔══██╗
         ██╔██╗ ██║███████╗██║  ██║
@@ -55,6 +57,25 @@ $ cat /etc/motd
 [reverse-eng]     "what the fuck does this actually do?"
 ```
 
+### `crash@nsd:~$ cat /proc/languages`
+
+<p align="left">
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Crash-sh&layout=compact&langs_count=8&hide_title=true&hide_border=true&bg_color=00000000&text_color=c9d1d9&title_color=8b5cf6"
+    alt="Crash language telemetry"
+  />
+</p>
+
+```text
+[NSD TELEMETRY]
+
+source        : public repositories
+measurement   : language distribution
+interpretation: questionable
+
+warning: assembly exposure appears to be increasing
+```
+
 ### `crash@nsd:~$ ls ~/interests`
 
 ```text
@@ -71,10 +92,9 @@ computer-architecture/
 
 ```c
 /*
-* Force silicon into obedience till it fucking cooperates
+ * Force silicon into obedience till it fucking cooperates
  */
 ```
-
 
 ### `crash@nsd:~$ cat CURRENT_TASK`
 
@@ -124,6 +144,7 @@ we can probably make it boot somewhere it wasn't supposed to.
 ### `crash@nsd:~$ find / -name "social_life" 2>/dev/null`
 
 ```text
+
 ```
 
 ### `crash@nsd:~$ cat contact`
@@ -143,9 +164,6 @@ status       : probably smoking
 Crash is not authorized to speak on behalf of Neuro Software Distribution.
 
 Crash has root access anyway.
-
-Legal has been informed.
-Legal has stopped responding.
 ```
 
 ```sh
