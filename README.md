@@ -61,7 +61,7 @@ uid=0(crash) gid=13(nsd) groups=53(hardware),689(architecture)
 
 <p align="left">
   <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Crash-sh&layout=compact&langs_count=8&hide_title=true&hide_border=true&bg_color=00000000&text_color=c9d1d9&title_color=8b5cf6"
+    src="[https://github-readme-stats.vercel.app/api/top-langs/?username=Crash-sh&layout=compact&langs_count=8&hide_title=true&hide_border=true&bg_color=00000000&text_color=c9d1d9&title_color=8b5cf6](https://github-readme-stats.vercel.app/api/top-langs/?username=Crash-sh&layout=compact&langs_count=8&hide_title=true&hide_border=true&bg_color=00000000&text_color=c9d1d9&title_color=8b5cf6)"
     alt="Crash language telemetry"
   />
 </p>
